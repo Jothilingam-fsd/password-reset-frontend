@@ -1,0 +1,53 @@
+.form-container {
+  height: 100vh;
+  background: linear-gradient(to right, #a4508b, #eec0c6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  background: linear-gradient(to bottom right, #c471f5, #fa71cd);
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.label-text {
+  color: blue;
+  margin-top: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.forgot-link {
+  color: red;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.login-btn {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.create-link {
+  color: green;
+  font-size: 14px;
+}

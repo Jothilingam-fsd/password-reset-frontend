@@ -1,0 +1,64 @@
+/* Full-page gradient background */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(to right, #a4508b, #eec0c6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form box styling */
+.login-box {
+  background: linear-gradient(to bottom right, #c471f5, #fa71cd);
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Title */
+.login-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+/* Labels */
+.label-text {
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Inputs */
+.input-field {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Forgot Password link */
+.forgot-link {
+  color: red;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Login button */
+.login-btn {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+/* Create Account link */
+.create-link {
+  color: green;
+  font-size: 14px;
+}
